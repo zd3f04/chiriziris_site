@@ -1,0 +1,88 @@
+ターゲット絞り込み
+
+目的：バンドの認知。ライブの動員。大型イベントへの招聘。
+CDのセールス、配信での再生回数大幅増加。
+
+10代後半-20代前半　見る時間がある人　→spotify /applemusic /Youtubeへ誘導
+
+20代後半-50代中盤　見る時間がないけど、買う余裕がある人
+→amazon / 通販購入へ誘導
+
+navi
+
+spotify applemusic　フォーローする項目
+
+YOUR SONG IS GOOD
+上下アイコンで移動機能ある。
+バンド名押せばトップへ移行
+シンプル且つ実用的。
+ニュースの幅が大きく、見やすい。
+スマホ対応。SNS系はアイコンでフッターにまとめ。
+フッターに、バンド名。メニュー一覧。Spotify/ Twitter / Youtube / Facebookの文字とアイコン。
+HOMEから下がっていくと、ニュース4件とライブ2件、インスタの写真が見られる仕様。
+
+News
+Live
+Biography
+Discography
+Movie
+Store(レーベル通販)
+Blog(Facebookから移管)
+
+アイコンで誘導？
+Twitter 
+Facebook
+spotify applemusic　フォーローする項目
+バナーでレーベルへリンク。
+
+Greta Van Fleet
+トップでLISTENへ誘導。
+cintinue to Websiteの文字。
+フッターにアイコンでSNS、文字でレーベルリンク。
+あとは暗く重く見づらい。
+JSのサイトみたい。
+
+三輪二郎
+トップがランディングページ的な役割。
+ジャケット絵が背景で、スクロールするとMV、ライブ、問い合わせが出てくる。
+メディア出演情報が見にくい。
+
+HOME
+ライブ
+お知らせ
+ビデオ
+プロフィール
+お問い合わせ
+日記
+
+前野健太
+PROFIELE
+SCHEDULE
+DISCOGRAPY
+ VIDEO
+PHOTO (ALL/ ARTIST PHOTO / LIVE)
+STORE(レーベル通販)
+
+トップがアー写、ライブ写真切り替わり。写真にオフィシャルサイトの文字入り。
+横にもオフィシャルサイトの文字。
+新譜はバナー作って、ランディングページへ誘導
+
+ニュースの幅が大きく、見やすい。
+
+neco眠る
+SNS系が文字だけでアイコンじゃないときつい。
+2013年、古っぽいかんじ。
+
+NEWS（トップ)
+Schedule
+DIscogtaphy
+Contact (フォームなしアドレスのみ記載)
+SoundCloud
+Twitter
+Facebook
+Youtube
+Store　(レーベル通販)
+レーベルバナー(絵なのでバナーと分かりづらい)
+
+
+

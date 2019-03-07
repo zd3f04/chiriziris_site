@@ -1,0 +1,10 @@
+＃PDO
+
+PHPでのMY SQLデータベース操作。
+
+＃プリペアドステートメント
+
+テータベースへの攻撃(SQLインジェクション)への対策処理
+$stmt = $pdo ->prepare("SELECT * FROM members WHERE age>= ? AND age <= ?");
+
+$stmt->execute(array($minAge, $maxAge));
