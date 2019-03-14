@@ -3,19 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+<link rel="stylesheet" type="text/css" href="css/slick.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="screen" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<title> Chiriziris | オフィシャルサイト</title>
+<meta name="description" content="Chiriziris（チリヂリズ）公式サイト。最新情報、ライブ情報、音源情報、ヒストリーを紹介しています。">
+<script>
+$(function() {
+    $('.single-item').slick();
+});
+</script>
 </head>
 <body>
-
-
-<div class="inline-block_test">
-    上下中央揃えができます上下中央揃えができます
-</div>
-<div class="inline-block_test">
-    文字数を変えても
-</div>
-<div class="inline-block_test">
-    大丈夫！
-</div>
+<div id="contents">
+<ul class="slider">
+     <li><a href="#"><img src="images/sample1.png"></a></li>
+     <li><a href="#"><img src="images/sample2.png"></a></li>
+     <li><a href="#"><img src="images/sample3.png"></a></li>
+</ul>
 </body>
 </html>

@@ -6,6 +6,10 @@ a {text-decoration: none;
 }
 a:hover { color: gray;
    }
+   .more {
+   text-align: right;
+   font-style:italic;
+ }
    .link_line:hover {
       color: black;
 text-decoration: underline;
@@ -67,16 +71,62 @@ footer{
    line-height: 120%;
 }
 .news_topics {
-   display: inline-block;
+   line-height: 160%;
+   padding: 10px;
+   overflow: hidden;
 }
 .live_topics {
-   display: inline-block;
+line-height: 160%;
+padding: 10px;
+   overflow: hidden;
+
 }
-/* .news_title{
-       width: 545px;
+.disco_topics {
+line-height: 160%;
+padding: 10px;
+   overflow: hidden;
 
-}*/
+}
 
+.news_date {
+  float: left;
+    margin-right: 10px;
+  font-size:14px;
+font-style:italic;
+}
+.live_date {
+   float: left;
+    margin-right: 10px;
+     font-size: 16px;
+  font-style:italic;
+}
+.news_title {
+overflow: hidden;
+}
+.live_title {
+overflow: hidden;
+}
+.release_on_top {
+overflow: hidden;
+}
+.release_on_top_info {
+    display:  inline-block;     /* インラインブロック要素にする */
+    vertical-align:  top;       /* 要素を上揃えにする */
+    margin-bottom: 10px;        /* 要素同士の隙間調整 */
+    box-sizing: border-box;     /* 崩れ防止 */            /* 高さ指定 */
+      position: relative;
+}
+.release_on_top_pic {
+  width: 200px;
+  height:auto;
+
+}
+.release_on_top_cat {
+  position: absolute;
+}
+.top_english {
+  color: grey;
+}
 #footer-sitename {
  float: left;
 }
@@ -97,4 +147,38 @@ footer{
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block;
 }
-
+body {
+font-family: 'Yu Gothic UI',YuGothic,'Yu Gothic','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  background: gray;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: FontAwesome;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
