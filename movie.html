@@ -3,24 +3,13 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/style.css">
-<link href="css/jquery.bxslider.css" rel="stylesheet"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/jquery.bxslider.min.js">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/colorbox.css">
 </script>
 <title> Chiriziris | オフィシャルサイト</title>
 <meta name="description" content="Chiriziris（チリヂリズ）公式サイト。最新情報、ライブ情報、音源情報、ヒストリーを紹介しています。">
-<script>
-  $(function(){
-    $('.bxslider').bxSlider({
-    auto: true,
-    autoControls: true,
-    stopAutoOnClick: true,
-    pager: true,
-    slideWidth: 600
-    });
-  });
-</script>
 </head>
 <body>
 
@@ -52,14 +41,15 @@
               チリヂリズ</h2> -->
 
 <nav>
-                    <ul>
+ <ul>
+<li><a href="index.html">Top</a></li>
             <li><a href="news.html">News</a></li>
             <li><a href="live.html" >Live</a></li>
             <li><a href="biography.html" >Biography</a></li>
             <li><a href="discography.html" >Discography</a></li>
             <li><a href="movie.html" >Movie</a></li>
 
-            <li><a href="http://kakubarhythm2.shop-pro.jp/" target="_blank">Store</a></li>
+            <li><a href="https://www.jetsetrecords.net/i/817005521469/" target="_blank">Store</a></li>
             <li><a href="blog.html" >Blog</a></li>
 
             <li><a href="contact.html" target="_blank">Contact</a></li>
@@ -71,16 +61,23 @@
        <div class="contents">
 
 
-
+<script>
+$(function() {
+$(".movie_box").colorbox({
+iframe:true,
+innerWidth:425,   //幅の指定
+innerHeight:344 //高さの指定
+});
+});
+</script>
     <h1>Movie</h1>
     <hr>
 <div class="movie_flex">
-   <p><a href="#"><img src="images/FRS0001.png" class="movie_all"></a></p>
-  <p><a href="#"><img src="images/FRS0001.png" class="movie_all"></a></p>
-  <p><a href="#"><img src="images/FRS0002.png" class="movie_all"></a></p>
-   <p><a href="#"><img src="images/matsuri_split.jpg" class="movie_all"></a></p>
-    <p><a href="#"><img src="images/rosenritter_demo.jpg" class="movie_all"></a></p>
-  <p><a href="#"><img src="images/KNJ_demo.jpeg" class="movie_all"></a></p>
+   <li class="movie_all"><a href="https://www.youtube.com/embed/ALp3uZ2Ig-s" class="movie_box"><img src="images/movie_albumteaser.png" class="movie_pic"><br>1st album "Chiriziris" Teaser</a></li>
+ <li class="movie_all"><a href="https://www.youtube.com/embed/NghVyh-1TpI"  class="movie_box"><img src="images/movie_matsuri2018.png" class="movie_pic"><br>"Rosenritter" Live at シンガポール祭り</a></li>
+   <li class="movie_all"><a href="https://www.youtube.com/embed/VJaVShUBf6U" class="movie_box"><img src="images/movie_Ikeepaskingtape.png"  class="movie_pic"><br>"I Keep Asking" Teaser</a></li>
+    <li class="movie_all" ><a href="https://www.youtube.com/embed/3VvD4XseQok" class="movie_box"><img src="images/movie_splittape.png" class="movie_pic"><br>"Split" Teaser</a></li>
+ <li class="movie_all"><a href="https://www.youtube.com/embed/WQNzDh-AcA0" class="movie_box"><img src="images/movie_matsuricompilation.png" class="movie_pic"><br>"シンガポール祭りコンピレーション" Teaser</a></li>
 </div>
 </div>
 </div>
@@ -130,6 +127,5 @@
         <div id="page-top">
 
 </footer>
-
 </body>
 </html>
