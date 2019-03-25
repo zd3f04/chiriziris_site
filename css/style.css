@@ -372,3 +372,44 @@ overflow: hidden;
 .movie_flex img:hover {
       opacity: 0.5 ;
     }
+    #disc_title_cover {
+ float: left;
+      padding-right: 15px;
+    }
+    #disc_title_info {
+float: left;
+      padding-right: 10px;
+    }
+    #disc_title_shops {
+      float: left;
+      padding-top: 10px;
+
+      padding-right: 5px;
+      width: 300px;
+    }
+    #disc_title_pic {
+       height:300px; // 画像サイズ
+  width:300px; // 画像サイズ
+  object-fit: cover; // 比率の差から出る余った領域をトリミング
+  object-position: 50% 20%; // x軸0%左揃え100%右揃え y軸0%上揃え100%下揃え
+    }
+    section {
+      width: 640px;
+      height: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .english {
+      color: gray;
+    }
+input[type="text"] {
+  width: 200px;
+}
+input[type="email"] {
+  width: 300px;
+
+}
+textarea {
+  width: 300px;
+  height:100px;
+}
